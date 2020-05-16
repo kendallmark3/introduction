@@ -10,6 +10,7 @@ class ParentComponent extends Component {
         <header className="App-header">
           <FirstChild />
           <SecondChild />
+          <ChildComponent text={"It's all about components folks! Learn to build them make money."} />
           <img src={logo} className="App-logo" alt="logo" />
           <img src={markimage} className="markimage" alt="markimage" />
           <a
@@ -52,6 +53,10 @@ class ParentComponent extends Component {
   };
   const SecondChild = () => {
     return <p>Hosted on AWS S3- with CI/CD with Buddy</p>; 
+  };
+
+  const ChildComponent = (props) => {  
+    return <p>{props.text}</p>; 
   };
 
 
