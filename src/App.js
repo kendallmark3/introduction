@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import markimage from './MarkKendall.jpg';
 import './App.css';
+import Plot from 'react-plotly.js';
 
 class ParentComponent extends Component {
   render() {
@@ -12,6 +13,7 @@ class ParentComponent extends Component {
           <FirstChild />
           <SecondChild />
           <ChildComponent text={"It's all about components folks! Learn to build them make money."} />
+          <Myplot/>
           <Money/>
           <img src={logo} className="App-logo" alt="logo" />
           <img src={markimage} className="markimage" alt="markimage" />
@@ -43,8 +45,8 @@ class ParentComponent extends Component {
           >
             My Angular Site
           </a>
-         
-        </header>
+          </header>
+       
       </div>
     );
   }
@@ -56,7 +58,7 @@ class ParentComponent extends Component {
         <React.Fragment>
           <nav className="navbar navbar-dark bg-dark mb-3">
             <a className="navbar-brand" href="https://www.kcftechnologies.com">
-              <p1>My Current Employer KCF Technolgies<span className="badge badge-secondary">{this.props.saying}</span></p1>
+              <p>My Current Employer KCF Technolgies<span className="badge badge-secondary">{this.props.saying}</span></p>
             </a>
           </nav>
         </React.Fragment>
@@ -78,6 +80,26 @@ class ParentComponent extends Component {
   class Money extends React.Component {
     render() {
       return <h2>MONEY!</h2>;
+    }
+  }
+
+  class Myplot extends React.Component {
+    render() {
+      return (
+        <Plot
+          data={[
+            {
+              x: [1, 2, 3],
+              y: [2, 6, 3],
+              type: 'scatter',
+              mode: 'lines+markers',
+              marker: {color: 'red'},
+            },
+            {type: 'bar', x: [1, 2, 3], y: [2, 5, 3]},
+          ]}
+          layout={ {width: 320, height: 240, title: 'Plotly is Killer Library'} }
+        />
+      );
     }
   }
 
