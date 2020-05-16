@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React for the Best Job on the planet!
+          Learn React for the Best Job on the planet! Mr Mark Kendall.
         </a>
       </header>
     </div>
