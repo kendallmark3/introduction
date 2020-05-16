@@ -8,6 +8,7 @@ class ParentComponent extends Component {
     return (
       <div className="App">
         <header className="App-header">
+        <NavBar saying="Smarts, Grit and Drive"/><br></br>
           <FirstChild />
           <SecondChild />
           <ChildComponent text={"It's all about components folks! Learn to build them make money."} />
@@ -47,6 +48,20 @@ class ParentComponent extends Component {
       </div>
     );
   }
+  }
+
+  class NavBar extends Component {
+    render() {
+      return (
+        <React.Fragment>
+          <nav className="navbar navbar-dark bg-dark mb-3">
+            <a className="navbar-brand" href="https://www.kcftechnologies.com">
+              <h1>My Current Employer KCF Technolgies<span className="badge badge-secondary">{this.props.saying}</span></h1>
+            </a>
+          </nav>
+        </React.Fragment>
+      );
+    }
   }
 
   const FirstChild = () => {
