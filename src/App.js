@@ -8,6 +8,8 @@ class ParentComponent extends Component {
     return (
       <div className="App">
         <header className="App-header">
+          <FirstChild />
+          <SecondChild />
           <img src={logo} className="App-logo" alt="logo" />
           <img src={markimage} className="markimage" alt="markimage" />
           <a
@@ -38,12 +40,20 @@ class ParentComponent extends Component {
           >
             My Angular Site
           </a>
-          
+         
         </header>
       </div>
     );
   }
   }
+
+  const FirstChild = () => {
+    return <p>Welcome to my React Development Site!</p>; 
+  };
+  const SecondChild = () => {
+    return <p>Hosted on AWS S3- with CI/CD with Buddy</p>; 
+  };
+
 
 export default ParentComponent;
 
