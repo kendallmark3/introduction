@@ -11,7 +11,7 @@ class ParentComponent extends Component {
           <FirstChild />
           <SecondChild />
           <ChildComponent text={"It's all about components folks! Learn to build them make money."} />
-          <Car/>
+          <Money/>
           <img src={logo} className="App-logo" alt="logo" />
           <img src={markimage} className="markimage" alt="markimage" />
           <a
@@ -60,7 +60,7 @@ class ParentComponent extends Component {
     return <p>{props.text}</p>; 
   };
 
-  class Car extends React.Component {
+  class Money extends React.Component {
     render() {
       return <h2>MONEY!</h2>;
     }
