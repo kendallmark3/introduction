@@ -35,7 +35,7 @@ class ParentComponent extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React for the Best Job on the planet! Mr Mark Kendall of KCF Technologies.
+            Learn React for the Best Jobs on the planet! <br></br>Mr. Mark Kendall of KCF Technologies.
           </a>
           <a
             className="App-link"
