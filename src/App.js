@@ -18,7 +18,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React for the Best Job on the planet! Mr Mark Kendall of KCF Technolpgies.
+          Learn React for the Best Job on the planet! Mr Mark Kendall of KCF Technologies.
         </a>
         <a
           className="App-link"
