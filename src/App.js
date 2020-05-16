@@ -9,6 +9,15 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <img src={markimage} className="markimage" alt="markimage" />
+        <a
+          className="App-link"
+          href="https://www.reverbnation.com/TheNuKendalls"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+         Mark Kendall Band
+        </a>
+        
         {/* <p>
           Edit <code>src/App.js</code> and save to reload.
         </p> */}
