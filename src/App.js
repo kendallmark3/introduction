@@ -24,6 +24,17 @@ class ParentComponent extends Component {
           <Money/>
           <img src={logo} className="App-logo" alt="logo" />
           <img src={markimage} className="markimage" alt="markimage" />
+
+          <a
+            className="App-link"
+            href="https://www.linkedin.com/in/mark-kendall-2742732"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+           linkedin.com
+          </a>
+
+          
           <a
             className="App-link"
             href="https://www.reverbnation.com/TheNuKendalls"
