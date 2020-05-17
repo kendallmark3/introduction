@@ -65,7 +65,7 @@ class ParentComponent extends Component {
       return (
         <BrowserRouter>
         <div>
-          <h1>Drill Down for more info!</h1>
+          <p>Drill Down for more info!</p>
           <ul className="header">
             <li><NavLink exact to="/">The Set up</NavLink> </li>
             <li><NavLink to="/blog">Blog</NavLink></li>
