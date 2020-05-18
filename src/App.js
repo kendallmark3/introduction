@@ -9,10 +9,22 @@ import {
   BrowserRouter
 } from "react-router-dom";
 
-class ParentComponent extends Component {
+class App extends React.Component {
+  
+  constructor(props) {
+    super(props);
+    this.state = {
+      info: "Resume"
+    };
+  }
+  componentDidMount() {
+    this.setState({ info:"My Resume"})
+    console.log(this.state.count);
+  }
+
   render() {
     return (
-
+     
       <div className="App">
         <header className="App-header">
        
@@ -32,6 +44,7 @@ class ParentComponent extends Component {
             rel="noopener noreferrer"
           >
            linkedin.com
+           <p>{this.state.info}</p>
           </a>
 
           
@@ -92,6 +105,7 @@ class ParentComponent extends Component {
       );
     }
   }
+
 
   class Home extends Component {
     render() {
@@ -192,5 +206,5 @@ class ParentComponent extends Component {
   }
 
 
-export default ParentComponent;
+export default App;
 
