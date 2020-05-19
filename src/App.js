@@ -111,12 +111,12 @@ class App extends React.Component {
     render() {
       return (
         <div>
-          <h2>More Info with simple routing components</h2>
+          <h1>More Info to Ponder</h1>
           <p>
             React allows so much with so little! Like this simple routing system
           </p>
           <p>
-           I put this site together in 1 hour!
+           In a matter of hours you can spin up Great sites!
           </p>
         </div>
       );
