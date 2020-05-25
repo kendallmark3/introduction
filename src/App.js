@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import markimage from './angular.png';
 import './App.css';
-import Plot from 'react-plotly.js';
 import {
   Route,
   NavLink,
