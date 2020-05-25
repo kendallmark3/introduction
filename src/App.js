@@ -49,6 +49,7 @@ class App extends React.Component {
           >
             Learn Angular
           </a>
+      <br/><br/>
           <Nav/>
           </header>
        
