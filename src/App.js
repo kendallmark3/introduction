@@ -159,7 +159,7 @@ class App extends React.Component {
       return (
         <React.Fragment>
           <nav className="navbar navbar-dark bg-dark mb-3">
-            <p>Welcome to Kendall Systems.com</p>
+            <h1>Welcome to Kendall Systems.com</h1>
           </nav>
         </React.Fragment>
       );
