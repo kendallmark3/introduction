@@ -30,7 +30,7 @@ class App extends React.Component {
         <NavBar saying="Smarts, Grit and Drive"/>
 
           <SecondChild />
-          <ChildComponent text={"Components are the backbone of most software famework!"} />
+          <ChildComponent text={"Components are the backbone of most software framework!"} />
          
           <Money/>
           
