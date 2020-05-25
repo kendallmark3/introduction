@@ -32,8 +32,7 @@ class App extends React.Component {
           <Money/>         
           {/* <img src={logo} className="App-logo" alt="logo" /> */}
           <img src={markimage} alt="markimage" height="200px" width="200px"  />
-          <br/>
-          <Myplot/>
+
           <a
             className="App-link"
             href="https://www.linkedin.com/in/mark-kendall-2742732"
@@ -155,26 +154,6 @@ class App extends React.Component {
   class Money extends React.Component {
     render() {
       return <h2>Opportunity!</h2>;
-    }
-  }
-
-  class Myplot extends React.Component {
-    render() {
-      return (
-        <Plot
-          data={[
-            {
-              x: [1, 2, 3],
-              y: [2, 6, 3],
-              type: 'scatter',
-              mode: 'lines+markers',
-              marker: {color: 'red'},
-            },
-            {type: 'bar', x: [1, 2, 3], y: [2, 5, 3]},
-          ]}
-          layout={ {width: 320, height: 240, title: 'We use Plotly for data visualization'} }
-        />
-      );
     }
   }
 
