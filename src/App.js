@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import markimage from './angular.png';
 import './App.css';
 import Plot from 'react-plotly.js';
