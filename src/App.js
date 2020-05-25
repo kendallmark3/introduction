@@ -64,7 +64,7 @@ class App extends React.Component {
       return (
         <BrowserRouter>
         <div>
-          <p>Drill Down for more info!</p>
+          <p>Click below for more info!</p>
           <ul className="header">
             <li><NavLink exact to="/">Intro:</NavLink> </li>
             <li><NavLink to="/blog">Blog</NavLink></li>
