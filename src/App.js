@@ -170,7 +170,7 @@ class App extends React.Component {
   //   return <p>Welcome to my  !</p>; 
   // };
   const SecondChild = () => {
-    return <p>Hosted on AWS S3- with CI/CD with Buddy</p>; 
+    return <p>Hosted on AWS S3- with CI/CD and Buddy</p>; 
   };
 
   const ChildComponent = (props) => {  
