@@ -31,7 +31,7 @@ class App extends React.Component {
           <Money/>         
           {/* <img src={logo} className="App-logo" alt="logo" /> */}
           <img src={markimage} alt="markimage" height="200px" width="200px"  />
-
+          <br/><br/>
           <a
             className="App-link"
             href="https://www.linkedin.com/in/mark-kendall-2742732"
@@ -121,7 +121,7 @@ class App extends React.Component {
             Python/C# developer specializing in data science and visualizations. 
             He has published a book on Dotnetnuke, and written several articles on many .net subjects. 
             Apart from his passion for making money writing software to improve business, 
-            Mark enjoys ranting-and-raving about current events and taking long runs on the beach</p>
+            Mark enjoys ranting-and-raving about current events and taking long runs on the beach.</p>
         </div>
       );
     }
