@@ -33,7 +33,7 @@ class App extends React.Component {
           <Money/>
           
           {/* <img src={logo} className="App-logo" alt="logo" /> */}
-          <img src={markimage} alt="markimage" height="100px" width="100px"  />
+          <img src={markimage} alt="markimage" height="200px" width="200px"  />
           <br/>
           <Myplot/>
           
