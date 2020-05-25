@@ -86,7 +86,7 @@ class App extends React.Component {
         <div>
           <h1>More Info to Ponder</h1>
           <p>
-            Angular or React allow so much with so little! Like this simple routing system in React
+            Angular or React allow you to do so much with so little! Like this simple routing system in React
           </p>
           <p>
            In a matter of hours you can spin up Great sites!
