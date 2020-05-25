@@ -28,7 +28,6 @@ class App extends React.Component {
         <header className="App-header">
        
         <NavBar saying="Smarts, Grit and Drive"/>
-          {/* <FirstChild /> */}
           <SecondChild />
           <ChildComponent text={"Components are the backbone of most software famework!"} />
          
