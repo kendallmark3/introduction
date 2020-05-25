@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import markimage from './MarkKendall.jpg';
+import markimage from './angular.png';
 import './App.css';
 import Plot from 'react-plotly.js';
 import {
@@ -29,14 +29,17 @@ class App extends React.Component {
         <header className="App-header">
        
         <NavBar saying="Smarts, Grit and Drive"/>
-          <FirstChild />
+          {/* <FirstChild /> */}
           <SecondChild />
-          <ChildComponent text={"It's all about components folks! Learn to build them make money."} />
-          <Myplot/>
+          <ChildComponent text={"Components are the backbone of most software famework!"} />
+         
           <Money/>
-          <img src={logo} className="App-logo" alt="logo" />
-          <img src={markimage} className="markimage" alt="markimage" />
-
+          
+          {/* <img src={logo} className="App-logo" alt="logo" /> */}
+          <img src={markimage} alt="markimage" height="100px" width="100px"  />
+          <br/>
+          <Myplot/>
+          
           <a
             className="App-link"
             href="https://www.linkedin.com/in/mark-kendall-2742732"
@@ -48,33 +51,33 @@ class App extends React.Component {
           </a>
 
           
-          <a
+          {/* <a
             className="App-link"
             href="https://www.reverbnation.com/TheNuKendalls"
             target="_blank"
             rel="noopener noreferrer"
           >
            Mark Kendall Band
-          </a>
+          </a> */}
           
           {/* <p>
             Edit <code>src/App.js</code> and save to reload.
           </p> */}
-          <a
+          {/* <a
             className="App-link"
             href="https://reactjs.org"
             target="_blank"
             rel="noopener noreferrer"
           >
             Learn React for the Best Jobs on the planet! <br></br>Mr. Mark Kendall of KCF Technologies.
-          </a>
+          </a> */}
           <a
             className="App-link"
             href="https://kendallsoft-dd2b9.firebaseapp.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            My Angular Site
+            Learn Angular
           </a>
           <Nav/>
           </header>
@@ -113,7 +116,7 @@ class App extends React.Component {
         <div>
           <h1>More Info to Ponder</h1>
           <p>
-            React allows so much with so little! Like this simple routing system
+            Angular or React allow so much with so little! Like this simple routing system in React
           </p>
           <p>
            In a matter of hours you can spin up Great sites!
@@ -129,7 +132,7 @@ class App extends React.Component {
         <div>
           <h2>Get In Touch</h2>
           <p>Phone: 817-965-0856</p>
-          <p>Email: mark.kendall@kcftechnologies.com</p>
+          <p>Email: kendallmark3@gmail.com</p>
         </div>
       );
     }
@@ -159,9 +162,7 @@ class App extends React.Component {
       return (
         <React.Fragment>
           <nav className="navbar navbar-dark bg-dark mb-3">
-            <a className="navbar-brand" href="https://www.kcftechnologies.com">
-              <p>My Current Employer KCF Technolgies<span className="badge badge-secondary">{this.props.saying}</span></p>
-            </a>
+            <p>Welcome to Kendall Systems.com</p>
           </nav>
         </React.Fragment>
       );
@@ -169,7 +170,7 @@ class App extends React.Component {
   }
 
   const FirstChild = () => {
-    return <p>Welcome to my React Development Site!</p>; 
+    return <p>Welcome to my  !</p>; 
   };
   const SecondChild = () => {
     return <p>Hosted on AWS S3- with CI/CD with Buddy</p>; 
@@ -181,7 +182,7 @@ class App extends React.Component {
 
   class Money extends React.Component {
     render() {
-      return <h2>MONEY!</h2>;
+      return <h2>Opportunity!</h2>;
     }
   }
 
@@ -199,7 +200,7 @@ class App extends React.Component {
             },
             {type: 'bar', x: [1, 2, 3], y: [2, 5, 3]},
           ]}
-          layout={ {width: 320, height: 240, title: 'Plotly is Killer Library'} }
+          layout={ {width: 320, height: 240, title: 'We use Plotly for data visualization'} }
         />
       );
     }
