@@ -28,6 +28,7 @@ class App extends React.Component {
         <header className="App-header">
        
         <NavBar saying="Smarts, Grit and Drive"/>
+
           <SecondChild />
           <ChildComponent text={"Components are the backbone of most software famework!"} />
          
@@ -167,9 +168,9 @@ class App extends React.Component {
     }
   }
 
-  const FirstChild = () => {
-    return <p>Welcome to my  !</p>; 
-  };
+  // const FirstChild = () => {
+  //   return <p>Welcome to my  !</p>; 
+  // };
   const SecondChild = () => {
     return <p>Hosted on AWS S3- with CI/CD with Buddy</p>; 
   };
@@ -206,5 +207,4 @@ class App extends React.Component {
 
 
 export default App;
-
 
