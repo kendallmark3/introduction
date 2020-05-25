@@ -64,7 +64,7 @@ class App extends React.Component {
         <div>
           <p>Drill Down for more info!</p>
           <ul className="header">
-            <li><NavLink exact to="/">The Set up</NavLink> </li>
+            <li><NavLink exact to="/">Intro:</NavLink> </li>
             <li><NavLink to="/blog">Blog</NavLink></li>
             <li><NavLink to="/contact">Contact</NavLink></li>
           </ul>
