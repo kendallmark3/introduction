@@ -136,7 +136,7 @@ class App extends React.Component {
         <div>
           <h2>A Blog Post</h2>
           <p>
-          I want to talk here in detaol about how to begin a large-scale Angular App.
+          I want to talk here in detail about how to begin a large-scale Angular App.
           </p>
          <p>When building a large application that has lots of information coming 
            from and going to the database as well as data that is shared across 
