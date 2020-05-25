@@ -27,7 +27,8 @@ class App extends React.Component {
         <header className="App-header">
         <NavBar saying="Smarts, Grit and Drive"/>
           <SecondChild />
-          <ChildComponent text={"Components are the backbone of most software framework!"} />         
+          <ChildComponent text={"Components are the backbone of most software framework!"} />   
+      <br/><br/>
           <Money/>         
           {/* <img src={logo} className="App-logo" alt="logo" /> */}
           <img src={markimage} alt="markimage" height="200px" width="200px"  />
