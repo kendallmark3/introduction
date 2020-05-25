@@ -136,14 +136,13 @@ class App extends React.Component {
         <div>
           <h2>A Blog Post</h2>
           <p>
-          When I feel like blogging about something I will put it here but here is a little about me.
+          I want to talk here in detaol about how to begin a large-scale Angular App.
           </p>
-         <p>Mark Kendall is a Software Engineer working in the Oil Industry in Dallas,Texas. He has been a programmer/developer 
-            for many years specializing in .NET/C#/Angular/React/Nodejs development. Currently, he is a 
-            Python/C# developer specializing in data science and visualizations. 
-            He has published a book on Dotnetnuke, and written several articles on many .net subjects. 
-            Apart from his passion for making money writing software to improve business, 
-            Mark enjoys ranting-and-raving about current events and taking long runs on the beach.</p>
+         <p>When building a large application that has lots of information coming 
+           from and going to the database as well as data that is shared across 
+           multiple components, things can easily get messy and complex. 
+           Our app has a lot going on in it and one of the challenges is figuring 
+           out how to manage data and maintain the UI state of the app.</p>
         </div>
       );
     }
