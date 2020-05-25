@@ -28,15 +28,12 @@ class App extends React.Component {
         <header className="App-header">
         <NavBar saying="Smarts, Grit and Drive"/>
           <SecondChild />
-          <ChildComponent text={"Components are the backbone of most software framework!"} />
-         
-          <Money/>
-          
+          <ChildComponent text={"Components are the backbone of most software framework!"} />         
+          <Money/>         
           {/* <img src={logo} className="App-logo" alt="logo" /> */}
           <img src={markimage} alt="markimage" height="200px" width="200px"  />
           <br/>
           <Myplot/>
-          
           <a
             className="App-link"
             href="https://www.linkedin.com/in/mark-kendall-2742732"
@@ -46,28 +43,6 @@ class App extends React.Component {
            linkedin.com
            <p>{this.state.info}</p>
           </a>
-
-          
-          {/* <a
-            className="App-link"
-            href="https://www.reverbnation.com/TheNuKendalls"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-           Mark Kendall Band
-          </a> */}
-          
-          {/* <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p> */}
-          {/* <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React for the Best Jobs on the planet! <br></br>Mr. Mark Kendall of KCF Technologies.
-          </a> */}
           <a
             className="App-link"
             href="https://kendallsoft-dd2b9.firebaseapp.com/"
