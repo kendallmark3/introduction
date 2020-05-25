@@ -28,11 +28,11 @@ class App extends React.Component {
         <NavBar saying="Smarts, Grit and Drive"/>
           <SecondChild />
           <ChildComponent text={"Components are the backbone of most software framework!"} />   
-      <br/><br/>
+      <br/>
           <Money/>         
           {/* <img src={logo} className="App-logo" alt="logo" /> */}
           <img src={markimage} alt="markimage" height="200px" width="200px"  />
-          <br/><br/>
+          <br/>
           <a
             className="App-link"
             href="https://www.linkedin.com/in/mark-kendall-2742732"
