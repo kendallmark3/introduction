@@ -136,6 +136,8 @@ class App extends React.Component {
         <div>
           <h1>Let's talk about Architecting Large-Scale Angular Systems</h1>
           <p>
+          <p>Start Here</p>
+          <a href="https://angular.io/guide/styleguide">Style Guide</a>
           I want to talk here in detail about how to begin a large-scale Angular App.
           </p>
          <p>When building a large application that has lots of information coming 
