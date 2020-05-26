@@ -134,7 +134,7 @@ class App extends React.Component {
     render() {
       return (
         <div>
-          <h2>Let's talk Architecting Large-Scale Angular System</h2>
+          <h2>Let's talk about Architecting Large-Scale Angular System</h2>
           <p>
           I want to talk here in detail about how to begin a large-scale Angular App.
           </p>
