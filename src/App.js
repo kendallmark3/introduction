@@ -137,7 +137,7 @@ class App extends React.Component {
           <h1>Let's talk about Architecting Large-Scale Angular Systems</h1>
           <p>
           <p>Start Here</p>
-          <a href="https://angular.io/guide/styleguide">Style Guide</a>
+          <a href="https://angular.io/guide/styleguide">Style Guide</a><br/>
           <a href="https://www.draw.io/">Create a Mickey Mouse Chart (Explained later)</a>
           <br/>
           <br/>
