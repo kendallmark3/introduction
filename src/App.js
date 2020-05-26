@@ -140,7 +140,10 @@ class App extends React.Component {
           <a href="https://angular.io/guide/styleguide">Style Guide</a><br/>
           <a href="https://www.draw.io/">Create a Mickey Mouse Chart (Explained later)</a><br/>
           <a href="https://angular.io/docs">Official Documentation</a><br/>
-          <br/>
+          <a href="https://material.io/design">Material design</a><br/>
+          <a href="https://rxjs-dev.firebaseapp.com/">RXJS</a><br/>
+          <a href="https://ngrx.io/">NGRX</a><br/>
+
           <br/>
           I want to talk here in detail about how to begin a large-scale Angular App.
           </p>
