@@ -145,11 +145,11 @@ class App extends React.Component {
            out how to manage data and maintain the UI state of the app.</p>
            <h2>Where to start with data management</h2>
            <p>Most teams, depending on the their experience with the Angular framework and others-
-             either start off with state objects created at the parent component- pishing data as props
+             either start off with state objects created at the parent component- passing data as props
              to their child components as is the case with React, or use input and output decorators
              as is the case with Angular. These approaches work well for some applications and is probably 
              the recommended approach if in fact your application is small and unsophisticated-
-             which allmost never are!
+             which almost always they never are!
            </p>
         </div>
       );
