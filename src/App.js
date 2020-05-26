@@ -152,7 +152,7 @@ class App extends React.Component {
              which they almost always never are! Take a look at this example of a well written component in Angular 
              8 with all the goodness of smart design- this could be a starter for many many of your angular components.
              Ask your team if their components can stand up to this one in terms of input and output decorators?
-             <a href="https://github.com/PacktPublishing/Angular-Projects/tree/master/Chapter02/ng-flashcards">Looky Here!</a>
+             <a href="https://github.com/PacktPublishing/Angular-Projects"> Looky Here! </a>Chapter02/ng-flashcards
            </p>
            <h2>Let's go the next level of sophistication</h2>
         </div>
