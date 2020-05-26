@@ -92,7 +92,7 @@ class App extends React.Component {
             Angular or React allow you to do so much with so little! Like this simple routing system in React
           </p>
           <p>
-           In a matter of hours you can spin up Great sites!
+           In a matter of hours you can spin up Great sites! But can you Really?
           </p>
         </div>
       );
