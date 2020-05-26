@@ -117,11 +117,11 @@ class App extends React.Component {
         <div>
           <h2>A Blog Post</h2>
           <p>
-          When I feel like blogging about something I will put it here but here is a little about me.
+          When I feel like blogging about something I will put it here but for now here is a little about me.
           </p>
          <p>Mark Kendall is a Software Engineer working in the Oil Industry in Dallas,Texas. He has been a programmer/developer 
             for many years specializing in .NET/C#/Angular/React/Nodejs development. Currently, he is a 
-            Python/C# developer specializing in data science and visualizations. 
+            Angular/C#/Full-Stack developer specializing in data science and visualizations. 
             He has published a book on Dotnetnuke, and written several articles on many .net subjects. 
             Apart from his passion for making money writing software to improve business, 
             Mark enjoys ranting-and-raving about current events and taking long runs on the beach.</p>
