@@ -3,6 +3,7 @@
   padding:30;
   padding-left: 100px;
   background-color: black;
+  display: flex;
 }
 
 .App-logo {
