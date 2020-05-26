@@ -134,7 +134,7 @@ class App extends React.Component {
     render() {
       return (
         <div>
-          <h2>Let's talk about Architecting Large-Scale Angular System</h2>
+          <h1>Let's talk about Architecting Large-Scale Angular Systems</h1>
           <p>
           I want to talk here in detail about how to begin a large-scale Angular App.
           </p>
@@ -148,9 +148,10 @@ class App extends React.Component {
              either start off with state objects created at the parent component- passing data as props
              to their child components as is the case with React, or use input and output decorators
              as is the case with Angular. These approaches work well for some applications and is probably 
-             the recommended approach if in fact your application is small and unsophisticated-
-             which almost always they never are!
+             the recommended approach- if in fact your application is small and unsophisticated-
+             which they almost always never are!
            </p>
+           <h2>Let's go the next level of sophistication</h2>
         </div>
       );
     }
