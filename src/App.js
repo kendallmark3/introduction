@@ -167,11 +167,11 @@ class App extends React.Component {
            <h1>STOP!</h1>
            <p>Sorry! I set you up for this one. Sure you have read a few article from the ones above, you have a development
              environment set up, you are writing components, showing off on your website, but in short time you
-             will have a mess on your hands! Why? Because you creating something you really don't understand and trying 
+             will have a mess on your hands! Why? Because you are  creating something you really don't understand and trying 
              to pass it off as an enterprise application- it is not trust me- more thought is needed at a higher-level
              first- contrary to those advocates of PURE Agile-more on that later-Keep reading over the couse of say 2 months,
              you will know why I have been able to pull off some very impressive sites for major corporations-
-             If you don't believe me jst ask me- Ha Ha and the young people seem to say! It is there way of saying cool!
+             If you don't believe me just ask me- Ha Ha as the young people seem to say! It is there way of saying cool!
 
            </p>
         </div>
