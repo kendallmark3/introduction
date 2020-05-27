@@ -133,8 +133,8 @@ class App extends React.Component {
   class Blog2 extends Component {
     render() {
       return (
-         <img src="270F0826-FE31-46CD-B1BA-8081CDACE277.jpeg" alt="angular2"/>
         <div>
+          <img src="270F0826-FE31-46CD-B1BA-8081CDACE277.jpeg" alt="angular2"/>
           <h1>Let's talk about Architecting Large-Scale Angular Systems</h1>
           <p>
           <p>Start Here</p>
