@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import markimage from './angular.png';
+import mychart from './chart.jpeg';
+import mychart1 from './component.png';
 import './App.css';
 import {
   Route,
@@ -7,6 +9,7 @@ import {
   BrowserRouter
 } from "react-router-dom";
 
+console.log(mychart); // /logo.84287d09.png
 class App extends React.Component {
   
   constructor(props) {
@@ -22,8 +25,9 @@ class App extends React.Component {
 
   render() {
     return (
-     
+      
       <div className="App">
+        
         <header className="App-header">
         <NavBar saying="Smarts, Grit and Drive"/>
           <SecondChild />
@@ -134,7 +138,6 @@ class App extends React.Component {
     render() {
       return (
         <div>
-          <img src="270F0826-FE31-46CD-B1BA-8081CDACE277.jpeg" alt="angular2"/>
           <h1>Let's talk about Architecting Large-Scale Angular Systems</h1>
           <p>
           <p>Start Here</p>
@@ -148,6 +151,8 @@ class App extends React.Component {
           <br/>
           I want to talk here in detail about how to begin a large-scale Angular App.
           </p>
+          <img src={mychart} alt="markimage" height="200px" width="600px"  />
+          <img src={mychart1} alt="markimage" height="200px" width="600px"  />
          <p>When building a large application that has lots of information coming 
            from and going to the database as well as data that is shared across 
            multiple components, things can easily get messy and complex. 
