@@ -165,7 +165,7 @@ class App extends React.Component {
            </p>
            <h2>Let's go the next level of sophistication...</h2>
            <h1>STOP!</h1>
-           <p>Sorry! I set you up for this one. Sure you have read a few article from the ones above, you have a development
+           <p>Sorry! I set you up for this one. Sure you have read a few articles from the ones above, you have a development
              environment set up, you are writing components, showing off on your website, but in short time you
              will have a mess on your hands! Why? Because you are  creating something you really don't understand and trying 
              to pass it off as an enterprise application- it is not trust me- more thought is needed at a higher level
